@@ -4,10 +4,10 @@ import { JitsiConferenceEvents } from '../../JitsiConferenceEvents';
 import * as JitsiTrackEvents from '../../JitsiTrackEvents';
 import RTCEvents from '../../service/RTC/RTCEvents';
 import { createTrackStreamingStatusEvent } from '../../service/statistics/AnalyticsEvents';
-import JitsiConference from '../../types/hand-crafted/JitsiConference';
-import JitsiRemoteTrack from '../../types/hand-crafted/modules/RTC/JitsiRemoteTrack';
-import RTC from '../../types/hand-crafted/modules/RTC/RTC';
-import { VideoType } from '../../types/hand-crafted/service/RTC/VideoType';
+import type JitsiConference from '../../types/hand-crafted/JitsiConference';
+import type JitsiRemoteTrack from '../../types/hand-crafted/modules/RTC/JitsiRemoteTrack';
+import type RTC from '../../types/hand-crafted/modules/RTC/RTC';
+import type { VideoType } from '../../types/hand-crafted/service/RTC/VideoType';
 import browser from '../browser';
 import Statistics from '../statistics/statistics';
 
