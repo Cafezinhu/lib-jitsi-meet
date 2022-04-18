@@ -1,6 +1,7 @@
 import Statistics from '../statistics/statistics';
 
-const logger = require('@jitsi/logger').getLogger(__filename);
+import l from '@jitsi/logger';
+const logger = l.getLogger(__filename);
 
 /**
  * Creates new instance of <tt>ComponentsVersions</tt> which will be discovering

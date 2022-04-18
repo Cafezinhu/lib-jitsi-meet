@@ -1,4 +1,4 @@
-const currentExecutingScript = require('current-executing-script');
+import currentExecutingScript from 'current-executing-script';
 
 /* eslint-disable max-params */
 

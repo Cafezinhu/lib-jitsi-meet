@@ -20,6 +20,8 @@ import SdpConsistency from '../sdp/SdpConsistency';
 import SdpSimulcast from '../sdp/SdpSimulcast';
 import { SdpTransformWrap } from '../sdp/SdpTransformUtil';
 import * as GlobalOnErrorHandler from '../util/GlobalOnErrorHandler';
+import Simulcast from '@jitsi/sdp-simulcast';
+import transform from 'sdp-transform';
 
 import JitsiRemoteTrack from './JitsiRemoteTrack';
 import RTC from './RTC';
@@ -265,8 +267,6 @@ export default function TraceablePeerConnection(
     if (this._usesUnifiedPlan) {
         this.simulcast = new SdpSimulcast({ numOfLayers: SIM_LAYER_RIDS.length });
     } else {
-        const Simulcast = require('@jitsi/sdp-simulcast');
-
         this.simulcast = new Simulcast(
             {
                 numOfLayers: SIM_LAYER_RIDS.length,
@@ -1244,7 +1244,6 @@ const normalizePlanB = function(desc) {
     }
 
     // eslint-disable-next-line no-shadow
-    const transform = require('sdp-transform');
     const session = transform.parse(desc.sdp);
 
     if (typeof session !== 'undefined'

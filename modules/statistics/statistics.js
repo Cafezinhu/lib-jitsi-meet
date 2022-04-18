@@ -13,8 +13,10 @@ import LocalStats from './LocalStatsCollector';
 import { PerformanceObserverStats } from './PerformanceObserverStats';
 import RTPStats from './RTPStatsCollector';
 import { CALLSTATS_SCRIPT_URL } from './constants';
+import statisticsConstants from '../../service/statistics/constants';
 
-const logger = require('@jitsi/logger').getLogger(__filename);
+import l from '@jitsi/logger';
+const logger = l.getLogger(__filename);
 
 /**
  * Stores all active {@link Statistics} instances.
@@ -771,7 +773,7 @@ Statistics.prototype.sendFeedback = function(overall, comment) {
     return CallStats.sendFeedback(this.options.confID, overall, comment);
 };
 
-Statistics.LOCAL_JID = require('../../service/statistics/constants').LOCAL_JID;
+Statistics.LOCAL_JID = statisticsConstants.LOCAL_JID;
 
 /**
  * Reports global error to CallStats.

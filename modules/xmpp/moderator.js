@@ -4,10 +4,9 @@ import { $iq, Strophe } from 'strophe.js';
 
 import Settings from '../settings/Settings';
 
-const AuthenticationEvents
-    = require('../../service/authentication/AuthenticationEvents');
-const { XMPPEvents } = require('../../service/xmpp/XMPPEvents');
-const GlobalOnErrorHandler = require('../util/GlobalOnErrorHandler');
+import AuthenticationEvents from '../../service/authentication/AuthenticationEvents';
+import { XMPPEvents } from '../../service/xmpp/XMPPEvents';
+import GlobalOnErrorHandler from '../util/GlobalOnErrorHandler';
 
 const logger = getLogger(__filename);
 

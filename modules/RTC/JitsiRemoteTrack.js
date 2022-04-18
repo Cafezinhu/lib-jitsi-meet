@@ -6,9 +6,10 @@ import Statistics from '../statistics/statistics';
 
 import JitsiTrack from './JitsiTrack';
 
-const logger = require('@jitsi/logger').getLogger(__filename);
+import jitsiLogger from '@jitsi/logger';
+const logger = jitsiLogger.getLogger(__filename);
 
-const RTCEvents = require('../../service/RTC/RTCEvents');
+import RTCEvents from '../../service/RTC/RTCEvents';
 
 let ttfmTrackerAudioAttached = false;
 let ttfmTrackerVideoAttached = false;

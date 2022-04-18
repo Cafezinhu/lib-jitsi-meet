@@ -4,7 +4,7 @@ import { MediaType } from '../../service/RTC/MediaType';
 import * as StatisticsEvents from '../../service/statistics/Events';
 import browser from '../browser';
 
-const GlobalOnErrorHandler = require('../util/GlobalOnErrorHandler');
+import GlobalOnErrorHandler from '../util/GlobalOnErrorHandler';
 
 const logger = getLogger(__filename);
 
