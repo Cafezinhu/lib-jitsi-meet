@@ -32,4 +32,4 @@ const AuthUtil = {
     }
 };
 
-module.exports = AuthUtil;
+export default AuthUtil;

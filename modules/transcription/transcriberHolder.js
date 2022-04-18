@@ -13,4 +13,4 @@ const transcriberHolder = {
     }
 };
 
-module.exports = transcriberHolder;
+export default transcriberHolder;

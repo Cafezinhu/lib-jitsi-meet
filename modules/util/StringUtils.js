@@ -21,4 +21,4 @@ function integerHash(string) {
     return hash;
 }
 
-module.exports = { integerHash };
+export { integerHash };

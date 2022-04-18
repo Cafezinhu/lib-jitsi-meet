@@ -76,4 +76,4 @@ const GlobalOnErrorHandler = {
 };
 
 
-module.exports = GlobalOnErrorHandler;
+export default GlobalOnErrorHandler;

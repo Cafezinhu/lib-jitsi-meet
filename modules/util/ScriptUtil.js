@@ -71,4 +71,4 @@ const ScriptUtil = {
 
 /* eslint-enable max-params */
 
-module.exports = ScriptUtil;
+export default ScriptUtil;

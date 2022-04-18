@@ -35,4 +35,4 @@ EventEmitterForwarder.prototype.forward = function(...args) {
         Function.prototype.bind.apply(this.dest.emit, args));
 };
 
-module.exports = EventEmitterForwarder;
+export default EventEmitterForwarder;
