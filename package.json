@@ -94,10 +94,10 @@
     "types": "tsc JitsiMeetJS.js --declaration --allowJs --esModuleInterop --emitDeclarationOnly --outDir types/generated",
     "types:copy": "cpx \"./types/hand-crafted/**/*\" dist/esm --clean"
   },
-  "module": "dist/esm/JitsiMeetJS.js",
-  "types": "dist/esm/JitsiMeetJS.d.ts",
+  "module": "JitsiMeetJS.js",
+  "types": "JitsiMeetJS.d.ts",
   "files": [
-    "dist",
+    "./",
     "connection_optimization/external_connect.js",
     "modules/browser/capabilities.json"
   ],
