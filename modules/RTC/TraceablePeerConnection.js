@@ -21,7 +21,6 @@ import SdpSimulcast from '../sdp/SdpSimulcast';
 import { SdpTransformWrap } from '../sdp/SdpTransformUtil';
 import * as GlobalOnErrorHandler from '../util/GlobalOnErrorHandler';
 import Simulcast from '@jitsi/sdp-simulcast';
-import transform from 'sdp-transform';
 
 import JitsiRemoteTrack from './JitsiRemoteTrack';
 import RTC from './RTC';
