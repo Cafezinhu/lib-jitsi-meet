@@ -7,7 +7,7 @@ import Statistics from '../statistics/statistics';
 import JitsiTrack from './JitsiTrack';
 
 import jitsiLogger from '@jitsi/logger';
-const logger = jitsiLogger.getLogger(__filename);
+const logger = jitsiLogger.getLogger("");
 
 import RTCEvents from '../../service/RTC/RTCEvents';
 

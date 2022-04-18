@@ -39,7 +39,7 @@ import * as ConnectionQualityEvents
 import * as E2ePingEvents from './service/e2eping/E2ePingEvents';
 import { createGetUserMediaEvent } from './service/statistics/AnalyticsEvents';
 
-const logger = Logger.getLogger(__filename);
+const logger = Logger.getLogger("");
 
 /**
  * The amount of time to wait until firing

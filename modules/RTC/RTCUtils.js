@@ -17,7 +17,7 @@ import Listenable from '../util/Listenable';
 
 import screenObtainer from './ScreenObtainer';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 // Require adapter only for certain browsers. This is being done for
 // react-native, which has its own shims, and while browsers are being migrated

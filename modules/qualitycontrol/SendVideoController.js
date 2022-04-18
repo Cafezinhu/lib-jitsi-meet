@@ -5,7 +5,7 @@ import RTCEvents from '../../service/RTC/RTCEvents';
 import FeatureFlags from '../flags/FeatureFlags';
 import MediaSessionEvents from '../xmpp/MediaSessionEvents';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 const MAX_LOCAL_RESOLUTION = 2160;
 
 /**

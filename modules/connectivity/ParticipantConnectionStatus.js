@@ -8,7 +8,7 @@ import { createParticipantConnectionStatusEvent } from '../../service/statistics
 import browser from '../browser';
 import Statistics from '../statistics/statistics';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 /**
  * Default value of 500 milliseconds for {@link ParticipantConnectionStatus.outOfLastNTimeout}.

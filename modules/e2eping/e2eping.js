@@ -6,7 +6,7 @@ import * as E2ePingEvents
 import { createE2eRttEvent } from '../../service/statistics/AnalyticsEvents';
 import Statistics from '../statistics/statistics';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 /**
  * The 'type' of a message which designates an e2e ping request.

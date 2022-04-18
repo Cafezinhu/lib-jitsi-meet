@@ -10,7 +10,7 @@ import Resolutions from '../../service/RTC/Resolutions';
 import { VideoType } from '../../service/RTC/VideoType';
 import { XMPPEvents } from '../../service/xmpp/XMPPEvents';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 /**
  * The value to use for the "type" field for messages sent by ConnectionQuality

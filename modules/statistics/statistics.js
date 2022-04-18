@@ -16,7 +16,7 @@ import { CALLSTATS_SCRIPT_URL } from './constants';
 import statisticsConstants from '../../service/statistics/constants';
 
 import l from '@jitsi/logger';
-const logger = l.getLogger(__filename);
+const logger = l.getLogger("");
 
 /**
  * Stores all active {@link Statistics} instances.

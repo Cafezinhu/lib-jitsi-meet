@@ -8,7 +8,7 @@ import {
     SdpTransformWrap
 } from './SdpTransformUtil';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 /**
  * Handles the work of keeping video ssrcs consistent across multiple

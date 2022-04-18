@@ -1,7 +1,7 @@
 import Statistics from '../statistics/statistics';
 
 import l from '@jitsi/logger';
-const logger = l.getLogger(__filename);
+const logger = l.getLogger("");
 
 /**
  * Creates new instance of <tt>ComponentsVersions</tt> which will be discovering

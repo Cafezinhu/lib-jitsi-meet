@@ -6,7 +6,7 @@ import CodecMimeType from '../../service/RTC/CodecMimeType';
 import { MediaType } from '../../service/RTC/MediaType';
 import browser from '../browser';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 /**
  * This class handles the codec selection mechanism for the conference based on the config.js settings.

@@ -10,7 +10,7 @@ import FeatureFlags from '../flags/FeatureFlags';
 
 import { filterNodeFromPresenceJSON } from './ChatRoom';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 export const SOURCE_INFO_PRESENCE_ELEMENT = 'SourceInfo';
 

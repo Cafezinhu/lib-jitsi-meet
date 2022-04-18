@@ -16,7 +16,7 @@ import Lobby from './Lobby';
 import XmppConnection from './XmppConnection';
 import Moderator from './moderator';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 export const parser = {
     packet2JSON(xmlElement, nodes) {

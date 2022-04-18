@@ -11,7 +11,7 @@ import browser from '../browser';
 const MAX_CACHE_SIZE = 100;
 
 // eslist-disable-line no-undef
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 /**
  * This class provides an API to lib-jitsi-meet and its users for sending

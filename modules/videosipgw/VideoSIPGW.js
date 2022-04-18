@@ -1,5 +1,5 @@
 import { getLogger } from '@jitsi/logger';
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 import { XMPPEvents } from '../../service/xmpp/XMPPEvents';
 

@@ -7,7 +7,7 @@ import { XMPPEvents } from '../../service/xmpp/XMPPEvents';
 import ChatRoom from './ChatRoom';
 import { ConnectionPluginListenable } from './ConnectionPlugin';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 /**
  * MUC connection plugin.

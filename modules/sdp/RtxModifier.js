@@ -6,7 +6,7 @@ import { MediaType } from '../../service/RTC/MediaType';
 import SDPUtil from './SDPUtil';
 import { parseSecondarySSRC, SdpTransformWrap } from './SdpTransformUtil';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 /**
  * Begin helper functions

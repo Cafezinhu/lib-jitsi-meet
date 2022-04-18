@@ -4,7 +4,7 @@ import { $iq } from 'strophe.js';
 
 import ConnectionPlugin from './ConnectionPlugin';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 const RAYO_XMLNS = 'urn:xmpp:rayo:1';
 

@@ -5,7 +5,7 @@ import { $build } from 'strophe.js';
 import { MediaType } from '../../service/RTC/MediaType';
 import FeatureFlags from '../flags/FeatureFlags';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 /**
  * Creates a "source" XML element for the source described in compact JSON format in [sourceCompactJson].

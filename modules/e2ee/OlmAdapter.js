@@ -10,7 +10,7 @@ import Deferred from '../util/Deferred';
 import Listenable from '../util/Listenable';
 import { FEATURE_E2EE, JITSI_MEET_MUC_TYPE } from '../xmpp/xmpp';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 const REQ_TIMEOUT = 5 * 1000;
 const OLM_MESSAGE_TYPE = 'olm';

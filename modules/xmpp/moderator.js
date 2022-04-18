@@ -8,7 +8,7 @@ import AuthenticationEvents from '../../service/authentication/AuthenticationEve
 import { XMPPEvents } from '../../service/xmpp/XMPPEvents';
 import GlobalOnErrorHandler from '../util/GlobalOnErrorHandler';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 /**
  *

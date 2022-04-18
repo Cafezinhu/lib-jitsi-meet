@@ -4,7 +4,7 @@ import browser from '../browser';
 import GlobalOnErrorHandler from '../util/GlobalOnErrorHandler';
 import l from '@jitsi/logger';
 
-const logger = l.getLogger(__filename);
+const logger = l.getLogger("");
 
 /**
  * We define enumeration of wrtcFuncNames as we need them before

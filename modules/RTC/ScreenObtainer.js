@@ -4,7 +4,7 @@ import * as JitsiTrackErrors from '../../JitsiTrackErrors';
 import browser from '../browser';
 
 import l from '@jitsi/logger';
-const logger = l.getLogger(__filename);
+const logger = l.getLogger("");
 
 /**
  * The default frame rate for Screen Sharing.

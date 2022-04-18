@@ -7,7 +7,7 @@ import browser from '../browser';
 
 import RTCUtils from './RTCUtils';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 /**
  * Maps our handler types to MediaStreamTrack properties.

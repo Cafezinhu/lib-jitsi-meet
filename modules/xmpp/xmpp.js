@@ -21,7 +21,7 @@ import initStropheLogger from './strophe.logger';
 import RayoConnectionPlugin from './strophe.rayo';
 import initStropheUtil from './strophe.util';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 /**
 * Regex to extract exact error message on jwt error.

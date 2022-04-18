@@ -6,7 +6,7 @@ import browser from '../browser';
 
 import GlobalOnErrorHandler from '../util/GlobalOnErrorHandler';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 
 /**
  * Calculates packet lost percent using the number of lost packets and the

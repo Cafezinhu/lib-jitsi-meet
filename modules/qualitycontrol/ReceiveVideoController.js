@@ -4,7 +4,7 @@ import isEqual from 'lodash.isequal';
 import * as JitsiConferenceEvents from '../../JitsiConferenceEvents';
 import FeatureFlags from '../flags/FeatureFlags';
 
-const logger = getLogger(__filename);
+const logger = getLogger("");
 const MAX_HEIGHT_ONSTAGE = 2160;
 const MAX_HEIGHT_THUMBNAIL = 180;
 const LASTN_UNLIMITED = -1;
