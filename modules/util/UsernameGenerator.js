@@ -436,6 +436,6 @@ function generateUsername() {
     return `${name}-${suffix}`;
 }
 
-export {
+export default {
     generateUsername
 };
